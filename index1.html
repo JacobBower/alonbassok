@@ -1,0 +1,948 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Alon Bassok for City Council</title>
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/CSWS.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+	$(window).load(function() { 
+		$("#toggle").click(function() { 
+		$("#navigation-subject").toggle(); 
+		});
+	});
+</script>
+</head>
+<style>
+
+body {
+	max-width: 100%;
+	min-width: 320px;
+	font-size: 100%;
+	background-color:#fcfcfa;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#mobile-toggle {
+	display: none;
+	}
+	
+header {
+	height:165px;
+	max-width:1024px;
+	margin:auto;
+	overflow: hidden;
+	}
+
+	#logo {
+		float:left;
+		overflow: hidden;
+		margin: 0 auto;
+		padding-top:20px;
+		padding-left:25px;
+		max-width:600px;
+		}
+		#logo-pic {
+		width: 100%;
+		float:right;	
+		}
+	
+	#donate {
+		overflow: hidden;
+		margin: 0 auto;
+		float:right;
+		max-width:167px;
+		padding-top: 90px;
+		padding-right: 45px;
+		}
+		
+		#donate a:hover {
+		padding-left:3px;
+		}
+
+#navigation {
+	width:1024px;
+	height: 60px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top:5px;
+	}
+	
+	#toggle {
+	display: none;
+	}
+	
+	#navigation-subject {
+		text-align: center;
+		padding-left: 0;
+		}
+		
+	#navigation-subject li {
+		background-color:#993;
+		padding:8px 0px;
+		font-size: 1.5em;
+		border-radius: 7px;
+		list-style-type: none;
+		display: inline;
+		line-height: 3px;
+		overflow:hidden;
+		}
+		
+		#navigation-subject li a {
+			color:#4A4A4A;
+			padding: 10px 40px;
+			text-decoration: none;
+			overflow:hidden;
+			} 
+		#navigation-subject li a:hover {
+			color:#606;
+			border:2px solid #FFF2D4;
+			border-radius: 11px;
+			padding: 11px 42px;
+			background-color:#c2c48a;
+			overflow:hidden;
+			}
+		
+#homePic {	
+	text-align:center;
+	margin: 10px auto 0;
+	}	
+
+#content-home {
+	max-width: 1024px;
+	height:auto;
+	margin: 0 auto;
+	overflow:hidden;
+	}
+	
+	#welcome {
+		color:#4A4A4A;
+		width: 670px;
+		height:522px;
+		float:left;
+		margin: 1.953%;
+		background-color:#99a0aa;
+		font-size:1.250em;
+		border-radius: 7px;
+		overflow: hidden;
+		opacity:0.88;
+		}
+		#welcome-pic {
+			float: left;
+			padding: 30px 20px;
+			}
+			
+	#class-newsletter{
+		color:#4A4A4A;
+		width:294px;
+		margin: 20px;
+		height: 359px;
+		background-color:#deddab;
+		border-radius: 7px;
+		overflow: hidden;
+		opacity:0.9;
+		}
+		p.nlp {
+			font-size: 1.625em;	
+		}
+		#class-newsletter a:hover {
+			color:#606;
+			text-shadow: 0 0 08px #fff, 0 0 18px #fff, 0 0 20px #fff, 0 0 30px #ff00de, 0 0 50px #ff00de;
+			}
+		
+	#amazon {
+		width: 294px;
+		height: 143px;
+		background-color:#c9cdc4;
+		border-radius: 7px;
+		overflow: hidden;
+		opacity:0.8;
+		}
+		#amazon-center {
+			text-align:center;
+			padding-top: 31px;
+			}
+			#amazon-center a:hover {
+				padding-right:4px;
+			}
+			
+	#about	{
+		color:#4A4A4A;
+		width: 97%;
+		height:auto;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		background-color:#c9cdc4;
+		font-size:1.25em;
+		border-radius: 7px;
+		overflow: hidden;
+		opacity:0.9;
+		}
+		#about-pic {
+			float: left;
+			padding: 20px;
+			}	
+		#about p {
+			padding: 15px;
+			}
+		
+	#parents {
+		float:left;
+		color:#4A4A4A;
+		width: 32.03%;
+		height:400px;
+		margin: 0.8%;
+		background-color:#c9cdc4;
+		font-size:1.25em;
+		border-radius: 7px;
+		overflow: hidden;
+		opacity:0.9;
+		}
+			#parent-pic {
+			float: left;
+			padding: 10px 10px 3px 10px;
+			}					
+		
+	#parent-forms {
+		color:#4A4A4A;
+		width: 32.03%;
+		height:400px;
+		margin: 0.8%;
+		background-color:#847f7c;
+		border-radius: 7px;
+		overflow: hidden;
+		font-size:1.25em;
+		float:left;
+		line-height: 1.9em;
+		opacity:0.94;
+		}
+		
+	#info-forms {
+		color:#4A4A4A;
+		width: 32.03%;
+		height:400px;
+		margin-top: 0.8%;
+		background-color:#99a0aa;
+		border-radius: 7px;
+		overflow: hidden;
+		font-size:1.25em;
+		float:right;
+		line-height: 1.7em;
+		opacity:0.8;
+		}
+		
+		ul.hover li a:hover {
+			color:#606;
+			text-shadow: 0 0 08px #fff, 0 0 18px #fff, 0 0 20px #fff, 0 0 30px #ff00de;
+			}		
+		
+	#messy {
+		float:left;
+		color:#4A4A4A;
+		width: 46.8%;
+		height:auto;
+		margin: 1.6%;
+		background-color:#99a0aa;
+		font-size:1.25em;
+		border-radius: 7px;
+		overflow: hidden;
+		opacity:0.9;
+		}
+		#mess-pic {
+			float: left;
+			padding: 10px 10px 3px 10px;
+			}
+		
+	#preschool {
+			color:#4A4A4A;
+			width: 46.8%;
+			height:auto;
+			margin: 1.6%;
+			background-color:#c9cdc4;
+			border-radius: 7px;
+			overflow: hidden;
+			font-size:1.25em;
+			float:right;
+			line-height: 1.9em;
+			opacity:0.84;
+			}
+			#pre-pic {
+			float: right;
+			padding: 10px 10px 3px 10px;
+			}
+			#read-more {
+			display:block;
+			float:right;	
+			}
+				#read-more a:hover {
+				padding-right:1px;	
+				}
+				
+	#messy-page	{
+			color:#4A4A4A;
+			height:auto;
+			margin: 0 auto;
+			margin-bottom: 10px;
+			padding:20px;
+			background-color:#d9e0e2;
+			font-size:1.25em;
+			border-radius: 7px;
+			overflow: hidden;
+			opacity:0.9;
+			}
+			#dev-pic {
+				float: right;
+				}
+				#dev-pic a:hover {
+				padding-right: 3px;
+				}
+			#messy-page p {
+				padding: 25px;
+				}
+			#mess2-pic {
+				float: left;
+				padding: 15px;
+			    }
+			#messy-page ul {
+				padding:25px;
+				}
+			#messy-page table {
+				width: 98%;
+				margin:0 auto;
+				background-color:#D4ECEC;
+			}
+			
+	#preschool-page	{
+			color:#4A4A4A;
+			height:auto;
+			margin: 0 auto;
+			margin-bottom: 10px;
+			padding:20px;
+			background-color:#c9cdc4;
+			font-size:1.25em;
+			border-radius: 7px;
+			overflow: hidden;
+			opacity:0.9;
+			}
+			#preschool-btn-pic {
+				float: right;
+				}
+				#preschool-btn-pic a:hover {
+				padding-right: 3px;
+				}
+			#preschool-page a:hover {
+				color:#606;
+				text-shadow: 0 0 08px #fff, 0 0 18px #fff, 0 0 20px #fff, 0 0 30px #ff00de, 0 0 50px #ff00de, 0 0 60px #ff00de, 0 0 80px #ff00de, 0 0 80px #ff00de;
+			}
+			#preschool-page p {
+				padding: 25px;
+				}
+			#pre2-pic {
+				float: left;
+				padding: 15px;
+			    }
+								
+	#enroll	{
+			color:#4A4A4A;
+			width: 97%;
+			height:auto;
+			margin: 0 auto;
+			margin-bottom: 10px;
+			background-color:#d9e0e2;
+			font-size:1.25em;
+			border-radius: 7px;
+			overflow: hidden;
+			opacity:0.9;
+			}
+			#tuition-pic {
+				float: right;
+				padding: 20px 25px 5px 5px;
+				}
+				#tuition-pic a:hover {
+				padding-right: 3px;
+				}
+			#enroll p {
+				padding: 25px;
+				}
+	
+#footer {
+	max-width: 1024px;
+	height: 235px;
+	background-color:#c2c48a;
+	text-align:center;
+	margin:0 auto;
+	overflow:hidden;
+	padding-bottom:10px;
+	}
+	#navigation-footer {
+		padding-left: 0;
+		padding-top: 10px;
+		}
+	#navigation-footer li {
+		background-color:#993;
+		font-size: 1.125em;
+		border:1px solid #CC9;
+		border-radius: 4px;
+		list-style-type: none;
+		padding: 8px 0px;
+		display: inline;
+		}
+		#navigation-footer li a {
+			color:#4A4A4A;
+			padding: 0px 50px;
+			text-decoration: none;
+			}
+			#navigation-footer li a:hover {
+			color:#606;
+			text-shadow:  0 0 18px #fff, 0 0 20px #fff,;
+
+			}		
+		#footer p {
+			color:#4A4A4A;
+			text-align:justify;
+			font-size: 1.125em;
+			margin: 20px;
+			}
+
+p {
+	color:#4A4A4A;
+	padding: 15px;
+	line-height: 125%;
+ 	}
+
+a {
+	color:#4A4A4A;
+	text-decoration: none;
+	float:none;
+	}
+	
+h1	{
+	color:#4A4A4A;
+	font-size: 2.25em;
+	line-height: 100%;
+	text-align: center;
+	}
+	
+h4, h3 {
+	padding-left:15px;
+	}
+	
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	}
+	
+.center {
+	text-align:center;
+	font-size:1.33em;
+	padding: 1%;
+	}
+	
+hr{
+	margin:10px;
+	}
+	
+@media screen and (max-width: 1040px) {
+	
+#welcome {
+		width: 65.429%;
+		margin: 1.953%;
+		}
+		
+#class-newsletter{
+		width:28.71%;
+		margin: 1.953%;
+ 		}
+		
+@media screen and (max-width: 1024px) { 
+
+header {
+		height:155px;
+		}
+		
+#logo {
+		padding-top:20px;
+		padding-left:2.44%;
+		width:58.59%;
+		}
+	
+#donate {
+		padding-top:6.20%;
+		width:21.1%;
+		padding-right: 4.39%;
+		}
+		
+#navigation {
+		width:100%;
+		}
+		
+#navigation-subject li a {
+		padding-left:3.222%;
+		padding-right:3.222%;
+		}  
+		 
+#navigation-subject li a:hover {
+		padding-left:3.417%;
+		padding-right:3.417%;
+		}
+	
+#content-home {
+		width: 100%;
+		}
+
+#parents {
+		font-size:1.125em;
+		}
+		
+#welcome {
+		width: 65.429%;
+		margin: 1.953%;
+		}
+			
+#class-newsletter{
+		width:28.71%;
+		margin: 1.953%;
+ 		}
+				
+p.nlp {
+		font-size: 1.250em;	
+		}	
+			
+#amazon {
+		width:28.71%;
+		}
+
+#footer p {
+		font-size: 1em;
+		margin: 10px;
+		}
+		
+#navigation-footer li a {
+		padding-left:3.9%;
+		padding-right:3.9%;
+		}
+}
+
+@media screen and (max-width: 870px) { 
+
+#navigation-subject li a {
+		padding-left:2.734%;
+		padding-right:2.734%;
+		}
+		 
+#navigation-subject li a:hover {
+		padding-left:2.832%;
+		padding-right:2.832%;
+		}
+		
+#parents {
+		font-size:1.063em;
+		}
+		
+#mess-pic {
+		display:block;
+		float: none;
+		text-align: center;
+		}
+			
+#pre-pic {
+		display:block;
+		float: none;
+		text-align: center;
+		}
+}
+
+@media screen and (max-width: 800px) { 
+
+header {
+		height:120px;
+		}
+		
+#logo {
+		padding-top:10px;
+		}
+	
+#donate {
+		padding-right: 3.417%;
+		}
+		
+#navigation {
+		width:100%;
+		}
+	
+#navigation-subject li {
+		font-size:1.375em;
+		}
+		
+#navigation-subject li a {
+		padding-left:2.148%;
+		padding-right:2.148%;
+		}
+		 
+#navigation-subject li a:hover {
+		padding-left:2.832%;
+		padding-right:2.832%;
+		}
+				
+p.nlp {
+		font-size: 1.250em;	
+		}
+		
+#amazon-center {
+		padding-top: 19%;
+		}				
+
+#navigation-footer li a {
+		padding-left:2.734%;
+		padding-right:2.734%;
+		}
+
+}
+
+@media screen and (max-width: 750px) {
+
+#about-pic {
+		display:block;
+		float: none;
+		text-align:center;
+		}
+				
+#parents {
+		float:none;
+		width:100%;
+		margin:5px auto;
+		font-size:1.375em;
+		height:auto;
+		}
+		
+#parent-pic {
+		padding: 20px 20px 0 20px;
+		}				
+
+		
+#parent-forms{
+		width:100%;
+		margin:5px auto;
+		}
+		
+#info-forms{
+		width:100%;
+		margin:5px auto;
+		}
+}
+
+@media screen and (max-width: 700px) {
+
+header {
+		height:100px;
+		}
+		
+#donate {
+		padding-top:6%;
+		width:20.1%;
+		padding-right: 4.39%;
+		}
+	 
+#navigation-subject li {
+		padding:7px 0px;
+		font-size: 1.188em;
+}
+
+#welcome-pic {
+		display:none;
+		}
+			
+#amazon-center {
+		padding-top: 23%;
+		}	
+			
+#navigation-footer li a {
+		padding-left:2.63%;
+		padding-right:2.63%;
+		}
+				
+#footer p {
+		font-size: .9em;
+		}
+
+}
+
+@media screen and (max-width: 600px) {
+
+body {
+	background-repeat:repeat-y;
+	}
+
+#mobile-toggle {
+	display: block;
+	overflow:hidden;
+	height: 65px;
+	}
+		
+header {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		overflow:hidden;
+		}
+	
+#logo {	
+		margin: 0 auto;
+		padding-right: 7%;
+		padding-bottom:5px;
+		float:none;
+		width: 74%;
+		overflow:hidden;
+		}
+		
+#donate {
+		display: none;
+		}
+		
+#navigation {
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+	
+	#toggle {
+		overflow:hidden;
+		display: block; 
+		float: left;
+		}
+	#upper-donate {
+		float: right;
+		padding: 8px 20px 0 0;
+		width: 130px;
+		}
+		#upper-donate a:hover{
+			padding:5px;
+			}
+	
+	#navigation-subject {
+		display: none;
+		text-align:none;
+		}
+		
+	#navigation-subject li {
+		float:none;
+		font-size:1.77em;
+		line-height: 12px;
+		}
+		
+		#navigation-subject li a {
+			display:block;
+			background-color:#F4FFF4;
+			opacity: 0.7;
+			} 
+			
+		#navigation-subject li a:hover {
+			
+			}
+
+#content-home {
+		margin: 0 auto;
+		height:auto;
+		}
+		
+#welcome {
+		float:none;
+		height:auto;
+		width:100%;
+		margin:5px auto;
+		font-size:1em;
+		}
+		
+#class-newsletter{
+		width:100%;
+		margin:5px auto;
+		height:auto;
+		}
+
+p.nlp {
+		font-size: 2.133em;	
+		}		
+		
+#amazon {
+		width: 100%;
+		margin: 5px auto;
+		}
+		
+#amazon-center {
+		padding-top: 30px;
+		}
+
+#messy {
+		width: 100%;
+		margin: 5px auto;
+		font-size:1.25em;
+		float: none;
+		}
+		#mess-pic {
+			float: left;
+			padding: 10px 10px 3px 10px;
+			}
+		#messy a:hover {
+			color:#606;
+			text-shadow: 0 0 08px #fff, 0 0 18px #fff, 0 0 20px #fff, 0 0 30px #ff00de;
+			}
+		
+#preschool {
+		width: 100%;
+		margin: 5px auto;
+		font-size:1.25em;
+		float:none;
+		}
+			#pre-pic {
+			float: right;
+			padding: 10px 10px 3px 10px;
+			}
+		#preschool a:hover {
+			color:#606;
+			text-shadow: 0 0 08px #fff, 0 0 18px #fff, 0 0 20px #fff, 0 0 30px #ff00de;
+			}	
+			
+#tuition-pic {
+			float:none;
+			padding: 5px;
+			}
+
+#tuition-pic a:hover {
+			padding-left: 3px;
+			}
+			
+#footer{
+		width:100%;
+		}
+	
+#navigation-footer li a {
+		font-size: .7em;
+		padding-left:2.42%;
+		padding-right:2.42%;
+		}
+		
+#footer p {
+		font-size: .7em;
+		}
+		
+}
+
+@media screen and (max-width: 430px) {
+
+#navigation-footer li a {
+		font-size: .55em;
+		padding-left:2.12%;
+		padding-right:2.12%;
+		}
+		
+#footer p {
+		font-size: .57em;
+		}
+		
+#mess-pic {
+		display:block;
+		float: none;
+		text-align: center;
+		}
+			
+#pre-pic {
+		display:block;
+		float: none;
+		text-align: center;
+		}
+		
+#dev-pic {
+		float: none;
+		display:block;
+		}
+}
+
+</style>
+
+<body>
+
+<div id="mobile-toggle">
+	<img id="toggle" src="images/menu.png"  alt="Toggle Menu">
+    <a target="_blank" href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=w90HPT47Gg1u8PZFEwOpHQXPqyF8HD_PMX6CTAjKwjVg8bAsNAWFfrQOsJ4&dispatch=5885d80a13c0db1f8e263663d3faee8d6cdb53fcfca2b5941339e576d7e42259">
+    <img id="upper-donate" src="images/prpbtn.png"  alt="" /></a>
+</div>
+
+<header>
+	<div id="logo" ><a href="http://jacobbower.com/CSWS/"><img id="logo-pic" src="images/logoMain.png"  alt="" /></a></div>
+    	
+			<div id="donate">
+              <a href="">
+              <img src="images/prpbtn.png" class="img" alt="" /></a></div>
+</header>
+
+<div id="navigation">
+
+    <ul id="navigation-subject">
+        <li class="current"><a href="http://jacobbower.com/CSWS/about.php">Issues</a></li> 
+        <li><a href="http://jacobbower.com/CSWS/programs.php">Why</a></li>
+        <li><a href="http://jacobbower.com/CSWS/enroll.php">Bio</a></li>
+        <li><a href="#">Endorsement</a></li>
+        <li><a href="http://jacobbower.com/CSWS/parents.php">Contact</a></li>  
+    </ul>
+    
+</div>
+
+<div id="homePic">
+    <div >	
+ 		<img src="images/cohen1.jpg" class="img" id="image" alt=""/>          
+	</div>
+</div>
+		
+    <div id="content-home">
+            <div id="welcome">
+                <div id="welcome-pic"><img src="images/2kids.png" class="img" alt="" /></div>
+                <!--<p class="nlp">&nbsp;&nbsp;<strong>Welcome!</strong></p>-->
+                <h1>Welcome!</h1>
+                <p>
+                The Community School of West Seattle(CSWS) is a unique and special place. Our strong committment to anti-bias practices and an 'Everyone is Welcome' policy gives our school a warm and inviting feel.
+                Children are the focus here with an emphasis on supporting the family. Being here is really the best way to get a true sense of who we are. We welcome you to schedule a visit. We hope the information
+                here answers many of your questions but if not please feel free to email or call. The early years, birth to eight years old, are a time of intense discovery. Play is the vital work of childhood as young children learn by doing. We believe the more opportunities children have for hands on, sensory-based experiences, the more they learn about their world. Our multi-age approach allows children to work with, learn from, and support each other.
+                <!--<a href="">>>>READ MORE</a>-->
+                </p>
+            </div>
+            
+            <div id="class-newsletter">
+                <p class="nlp">
+                	<strong>Class Newsletter</strong><hr />
+                    &nbsp;&nbsp;<a href="http://02b4624.netsolhost.com/docs/vashon.pdf" target="_blank"><img src="images/logoRed.png" class="img" alt="" />&nbsp;&nbsp;Vashion Island</a><br /><br />
+                    &nbsp;&nbsp;<a href="http://02b4624.netsolhost.com/docs/orcas.pdf" target="_blank"><img src="images/logoGreen.png" class="img" alt="" />&nbsp;&nbsp;Orcas Island</a><br /><br />
+                    &nbsp;&nbsp;<a href="http://02b4624.netsolhost.com/docs/whidbey.pdf" target="_blank"><img src="images/logoBlue.png" class="img" alt="" />&nbsp;&nbsp;Whidbey Island</a><br /><br />
+                    &nbsp;&nbsp;<a href="http://02b4624.netsolhost.com/docs/blake.pdf" target="_blank"><img src="images/logoSage.png" class="img" alt="" />&nbsp;&nbsp;Blake Island</a><br /><br />
+                </p>
+            </div>
+            
+            <div id="amazon">
+            	<div id="amazon-center"><a href=""><img src="images/amazon.png" class="img" id="image" alt=""/></a></div>
+            </div>
+            	
+            <div class="clear">&nbsp;</div>
+    
+    </div>
+
+
+<!--<?php include "includes/footer.php"; ?>-->
+<div id="footer">
+        <ul id="navigation-footer">
+            <li class="current"><a href="http://jacobbower.com/CSWS/about.php">About</a></li> 
+        <li><a href="http://jacobbower.com/CSWS/programs.php">Programs</a></li>
+        <li><a href="http://jacobbower.com/CSWS/enroll.php">Enroll</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="http://jacobbower.com/CSWS/parents.php">Parents</a></li>
+        <li><a href="#">Contact</a></li>       
+        </ul>
+        <p>
+        The Community School of West Seattle (CSWS) is a registered 501(c)3 organization. Tax ID # 77-0590799. CSWS does not discriminate in the administration of its educational and admissions policies, scholship programs or any other school admnistered programs. CSWS welcomes and admits students and families of any race, color, sexual oreintation, national, ethnic and cultural background, gender, religion, family make-up or circumstances to all the rights, privieges, programs and activities of the school.
+        <br /> <br />
+        <strong>Community School of West Seattle &nbsp;All Rights Reserved &copy; 2014 </strong>
+        </p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,476 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	max-width: 100%;
+	min-width: 320px;
+	font-size: 100%;
+	background-color:#fcfcfa;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#mobile-toggle {
+	background-color: #006633;
+	padding-bottom: 20px;
+	display: none;
+	}
+	
+header {
+	height:265px;
+	max-width:1024px;
+	margin:auto;
+	overflow: hidden;
+	background-color:#006633;
+	}
+
+		#logo-pic {
+		max-width:600px;
+		width: 58.593%;
+		float:left;
+		overflow: hidden;
+		padding:20px 0 20px 20px;
+		}
+		
+		#social-media {
+			float:right;
+			padding:30px;
+			clear:right;
+			overflow: hidden;
+		}
+		
+			#twitter {
+			overflow: hidden;
+			max-width:64px;
+			float:left;
+			padding: 2px 0 0 10px;
+			}
+			
+			#fb {
+			overflow: hidden;
+			max-width:40px;
+			float:left;
+			}
+			
+		#support-btn {
+		overflow: hidden;
+		max-width:190px;
+		width: 30%;
+		float:right;
+		padding-top: 75px;
+		padding-right: 30px;
+		clear:right;
+		}
+		
+	
+		
+#navigation {
+	width:1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding:15px 0 10px 0;
+	}
+	
+	#toggle {
+	display: none;
+	}
+	
+	#navigation-subject {
+		text-align:center;
+		}
+		
+	#navigation-subject li {
+		padding:8px 0px;
+		font-size: 1.35em;
+		display: inline;
+		overflow:hidden;
+		}
+		
+		#navigation-subject li a {
+			color:#4A4A4A;
+			padding: 10px 40px;
+			text-decoration: none;
+			overflow:hidden;
+			}
+			 
+		#navigation-subject li a:hover {
+			color:#006633;
+			 text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 
+			 0 0 30px rgba(255,255,255,1) , 0 0 1.5px #006633;
+			overflow:hidden;
+			}
+		
+#homePic {	
+	text-align:center;
+	margin: 10px auto 0;
+	}	
+
+#content {
+	max-width: 980px;
+	height:auto;
+	margin: 0 auto;
+	overflow:hidden;
+	padding: 15px 30px;
+	}
+	
+	#content-left {
+		float: left;
+		width: 47%;
+	}
+	
+	#content-right {
+		float: right;
+		width: 47%;
+	}
+
+	#bio {
+		width:100%;
+		height: auto;
+		overflow: hidden;		
+	}
+		
+		#bio-alon {
+			float:left;
+			padding: 0 25px 5px 0;
+		}
+		
+		#bassoks {
+			float: right;
+			padding: 0 0 0 20px;
+		}
+	
+footer {
+	margin-top:20px;
+	background-color:#006633;
+	max-width:1024px;
+	margin: auto;
+	height:auto;
+}
+		
+	footer p {
+		padding: 20px;
+		color:#000;
+	}
+	
+	footer a {
+		color:#339966;
+		font-style:none;
+	}
+	
+	footer a:hover {
+		color:#ffcc33;
+		text-shadow:none;
+	}
+
+p {
+	color:#4A4A4A;
+	line-height: 125%;
+	text-align:justify;
+	padding-bottom:10px;
+ 	}
+
+a {
+	color:#4A4A4A;
+	text-decoration:none;
+	float:none;
+	}
+	
+a:hover {
+	color:#006633;
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 
+	0 0 30px rgba(255,255,255,1) , 0 0 1.5px #006633;
+}
+
+a:visited {
+	color:#006633;
+}
+
+h1	{
+	color:#4A4A4A;
+	font-size: 2.25em;
+	line-height: 100%;
+	text-align: center;
+	}
+	
+h2,h3 {
+	color:#4A4A4A;
+	padding: 5px 0 10px 0;
+}
+
+h4 {
+	color:#4A4A4A;
+}
+
+.center {
+	text-align:center;
+}
+
+#alon {
+	padding-bottom: 15px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	}
+	
+hr{
+	margin:10px 0 20px 0;
+	}
+
+blockquote {
+	font-style:oblique;
+	color:#999;
+	line-height:1.4em;
+	padding-top: 30px;
+	width: 95%;
+	text-align:justify;
+	padding-left:7px;
+}
+
+blockquote:first-letter {
+	font-size: 2em;
+	overflow:hidden;
+	color:#006633;
+}
+
+#blockquote {
+	font-style:oblique;
+	color:#999;
+	line-height:1.4em;
+	width: 95%;
+	text-align:justify;
+	padding: 10px 0 20px 10px;
+}
+
+#blockquote:first-letter {
+	font-size: 2em;
+	overflow:hidden;
+	color:#006633;
+}
+
+#quote-title {
+	text-align:left;
+}
+
+#contact {
+	max-width: 1024px;
+	width: 100%;
+	margin:auto;
+	padding: 20px 0 20px 30px;
+}
+
+#contact label {
+	display: block;
+	color: #006633;
+	margin-bottom: 4px;
+	font-weight: bold;
+}
+
+#contact input, #contact select, #contact textarea {
+	display: block;
+	margin-bottom: 10px;
+}
+
+		
+@media screen and (max-width: 1024px) { 
+
+header {
+		height:auto;
+		}
+	
+#support-btn {
+	padding-top:65px;
+}
+
+#navigation {
+		width:100%;
+		}
+	
+}
+
+@media screen and (max-width: 944px)  {
+	
+	#support-btn {
+		padding-top:37px;
+	}
+	
+	#navigation-subject li {
+		font-size:1.4em;
+		}
+	#navigation-subject li a {
+		padding-left:2.148%;
+		padding-right:2.148%;
+		}
+}
+
+
+@media screen and (max-width: 807px) { 
+
+#support-btn {
+		padding-top:23px;
+	}
+		
+#navigation-subject li {
+		font-size:1.375em;
+		}
+}
+
+@media screen and (max-width: 700px) {
+
+#support-btn {
+	padding-top:0;
+}
+
+#navigation-subject li {
+		padding:7px 0px;
+		font-size: 1.188em;
+}
+
+#content-left {
+		width: 100%;
+	}
+	
+#content-right {
+		float: left;
+		width: 100%;
+		padding-top: 0;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+body {
+	background-repeat:repeat-y;
+	}
+
+#mobile-toggle {
+	display: block;
+	overflow:hidden;
+	}
+		
+header {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		overflow:hidden;
+		}
+	
+#logo-pic {
+	width:90%;
+	float:none;
+	margin:auto;
+	padding:15px;
+	
+}
+		
+#social-media {
+	display:none;
+		}
+
+#support-btn {
+		display: none;
+		}
+		
+#navigation {
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+	
+	#toggle {
+		display: block; 
+		float: left;
+		padding: 10px 20px 0 20px;
+		}
+		
+	#upper-donate {
+		float: right;
+		padding: 10px 20px 0 0;
+		
+		}
+		
+		#twitter {
+			padding: 20px 10px 0 0;
+			}
+			
+		#fb {
+			padding: 20px 10px 0 0;
+			}
+		
+
+	
+#navigation-subject {
+	display: none;
+	text-align:left;
+	padding-left:20px;
+	}
+		
+	#navigation-subject li {
+		float:none;
+		font-size:1.4em;
+		line-height: 12px;
+		text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 
+		0 0 30px rgba(255,255,255,1) , 0 0 3px #006633;
+		background-color:#F5FFFF;
+		}
+		
+		#navigation-subject li a {
+			display:block;
+			} 
+
+#content-home {
+		margin: 0 auto;
+		height:auto;
+}
+
+#bio p {
+	text-align:justify;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+				
+}
+
+@media screen and (max-width: 420px) {
+
+	
+#bio-alon {
+	float:none;
+	width:100%;
+	padding: 10px;
+	margin:auto;
+}
+		
+#bassoks {
+	float:none;
+	width:100%;
+	padding: 10px;
+	margin:auto;
+}
+
+#toggle {
+		padding: 0 20px 0 30px;
+		}
+		
+		#twitter {
+			padding: 14px 10px 0 0;
+			float:left;
+			}
+			
+		#fb {
+			padding: 10px 10px 0 0;
+			float:left;
+			}
+		
+#upper-donate {
+	clear:left;
+	float:left;
+	padding: 20px 0 0 30px;
+		}
+}
