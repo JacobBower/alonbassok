@@ -59,7 +59,7 @@ $(function(){
     <ul id="navigation-subject">
         <li class="current"><a href="http://jacobbower.com/alonbassok.com/issues.php">Issues</a></li> 
         <li><a href="http://jacobbower.com/alonbassok/press.php">In The Press</a></li>
-        <li><a href="http://jacobbower.com/alonbassok.com/why.php">Why I'm Running</a></li>
+        <li><a href="http://jacobbower.com/alonbassok/why.php">Why I'm Running</a></li>
         <li><a href="http://jacobbower.com/alonbassok.com/bio.php">Bio</a></li>
         <li><a href="http://jacobbower.com/alonbassok.com/endorse.php">Endorsements</a></li>
         <li><a href="http://jacobbower.com/alonbassok.com/contact.php">Contact</a></li>
