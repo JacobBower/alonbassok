@@ -18,6 +18,17 @@
 	
 </script>
 
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+
 </head>
 
 <body>
@@ -25,7 +36,7 @@
 
 
 <header>
-		<a href="http://alonbassok.com/index.php"><img id="logo-pic" src="images/logo22.png"  alt="alon bassok logo" /></a>
+		<a href="http://alonbassok/index.php"><img id="logo-pic" src="images/logo22.png"  alt="alon bassok logo" /></a>
 			
         <div id="social-media">
             <a href="https://www.facebook.com/Bassok4Council" target="_blank"><img src="images/fb.png" id="fb" alt="facebook icon" /></a> 
@@ -46,12 +57,12 @@
 <div id="navigation">
 
     <ul id="navigation-subject">
-        <li class="current"><a href="http://alonbassok.com/issues.php">Issues</a></li> 
-        <li><a href="http://alonbassok.com/press.php"></a>In The Press</li>
-        <li><a href="http://alonbassok.com/why.php">Why I'm Running</a></li>
-        <li><a href="http://alonbassok.com/bio.php">Bio</a></li>
-        <li><a href="http://alonbassok.com/endorse.php">Endorsements</a></li>
-        <li><a href="http://alonbassok.com/contact.php">Contact</a></li>
+        <li class="current"><a href="http://jacobbower.com/alonbassok.com/issues.php">Issues</a></li> 
+        <li><a href="http://jacobbower.com/alonbassok/press.php">In The Press</a></li>
+        <li><a href="http://jacobbower.com/alonbassok.com/why.php">Why I'm Running</a></li>
+        <li><a href="http://jacobbower.com/alonbassok.com/bio.php">Bio</a></li>
+        <li><a href="http://jacobbower.com/alonbassok.com/endorse.php">Endorsements</a></li>
+        <li><a href="http://jacobbower.com/alonbassok.com/contact.php">Contact</a></li>
     </ul>
     
 </div>

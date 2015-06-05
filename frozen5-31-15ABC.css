@@ -20,7 +20,7 @@ body {
 	
 header {
 	height:265px;
-	/*max-width:1024px;*/
+	max-width:1024px;
 	margin:auto;
 	overflow: hidden;
 	background-color:#006633;
@@ -64,8 +64,10 @@ header {
 		clear:right;
 		}
 		
+	
+		
 #navigation {
-	max-width:1024px;
+	width:1024px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding:15px 0 10px 0;
@@ -81,30 +83,22 @@ header {
 		
 	#navigation-subject li {
 		padding:8px 0px;
-		font-size: 1.25em;
+		font-size: 1.5em;
 		display: inline;
 		overflow:hidden;
 		}
 		
 		#navigation-subject li a {
 			color:#4A4A4A;
-			padding: 10px 30px;
+			padding: 10px 40px;
 			text-decoration: none;
 			overflow:hidden;
 			}
-			
-			#navigation-subject li a.current {
-			background:#ffcc33;
-			color: #006633;
-			border-radius: 7px;
-			}	
-			
-			#navigation-subject li a.current:hover {
-			color: #006633;
-			}	
 			 
 		#navigation-subject li a:hover {
 			color:#006633;
+			 text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 
+			 0 0 30px rgba(255,255,255,1) , 0 0 1.5px #006633;
 			overflow:hidden;
 			}
 		
@@ -150,7 +144,7 @@ header {
 footer {
 	margin-top:20px;
 	background-color:#006633;
-	/*max-width:1024px;*/
+	max-width:1024px;
 	margin: auto;
 	height:auto;
 }
@@ -158,7 +152,6 @@ footer {
 	footer p {
 		padding: 20px;
 		color:#000;
-		font-size: .75em;
 	}
 	
 	footer a {
@@ -186,6 +179,8 @@ a {
 	
 a:hover {
 	color:#006633;
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 
+	0 0 30px rgba(255,255,255,1) , 0 0 1.5px #006633;
 }
 
 a:visited {
@@ -280,21 +275,6 @@ blockquote:first-letter {
 	margin-bottom: 10px;
 }
 
-#press-exerpt {
-	font-style:oblique;
-	color:#999;
-	line-height:1.3em;
-	width: 95%;
-	text-align:justify;
-	padding-left:7px;
-}
-
-/*#press-exerpt:first-letter {
-	font-size: 1.4em;
-	overflow:hidden;
-	color:#006633;
-}*/
-
 		
 @media screen and (max-width: 1024px) { 
 
@@ -319,30 +299,35 @@ header {
 	}
 	
 	#navigation-subject li {
-		font-size:1.35em;
+		font-size:1.4em;
 		}
 	#navigation-subject li a {
-		padding-left:1%;
-		padding-right:1%;
+		padding-left:2.148%;
+		padding-right:2.148%;
 		}
 }
 
 
 @media screen and (max-width: 807px) { 
 
-	#support-btn {
-			padding-top:23px;
+#support-btn {
+		padding-top:23px;
+	}
+		
+#navigation-subject li {
+		font-size:1.375em;
 		}
-			
-	#navigation-subject li {
-			font-size:1.15em;
-			}
 }
 
 @media screen and (max-width: 700px) {
 
 #support-btn {
 	padding-top:0;
+}
+
+#navigation-subject li {
+		padding:7px 0px;
+		font-size: 1.188em;
 }
 
 #content-left {
